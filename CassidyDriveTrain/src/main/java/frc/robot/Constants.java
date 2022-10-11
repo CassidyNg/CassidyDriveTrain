@@ -21,4 +21,11 @@ public final class Constants {
 
         public static final double ACCELERATION_CONSTANT = 1;
     }
+
+    public final class IntakeConstants{
+        public static final int INTAKE_MOTOR = 10;
+        public static final double MAXIMUM_INTAKE_SPEED = 0.8;
+        public static final int INTAKE_SOLENOID_DEPLOY = 2;
+        public static final int INTAKE_SOLENOID_RETRACT = 3;
+    }
 }
